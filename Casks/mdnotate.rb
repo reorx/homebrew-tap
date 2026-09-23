@@ -12,8 +12,6 @@ cask "mdnotate" do
     strategy :github_latest
   end
 
-  depends_on macos: :catalina
-
   app "mdnotate.app"
 
   zap trash: [
