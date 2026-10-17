@@ -1,9 +1,9 @@
 cask "gapless-paste" do
-  version "0.1.0"
-  sha256 "c7adb7b5880560dcf2ba14c2a2d0ee349bccb8259cd0e83a3b3c5cff84908a36"
+  version "0.1.1"
+  sha256 "20042a0f80a110919d8b22906bc62a998e9deef1ff7fe990d50989990906f164"
 
   # 私有仓库：经 GitHub API 带 token 下载（gh auth login 或 HOMEBREW_GITHUB_API_TOKEN）
-  url "https://api.github.com/repos/reorx/gapless-paste/releases/assets/650199637",
+  url "https://api.github.com/repos/reorx/gapless-paste/releases/assets/650223102",
       header: [
         "Accept: application/octet-stream",
         "Authorization: Bearer #{GitHub::API.credentials}",
