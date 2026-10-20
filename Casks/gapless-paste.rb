@@ -1,6 +1,6 @@
 cask "gapless-paste" do
-  version "0.2.0"
-  sha256 "be7dcd5c6cdb87447f2391117388be6d0ad130fe19594796ccb6ec1d60b86d90"
+  version "0.3.0"
+  sha256 "1f4bb45a1249773fde478660f89902694bdff78fe43f399475e548d055608e88"
 
   url "https://github.com/reorx/gapless-paste/releases/download/v#{version}/GaplessPaste-#{version}.dmg"
   name "GaplessPaste"
