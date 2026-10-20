@@ -1,6 +1,6 @@
 cask "feishu-lite" do
-  version "0.1.2"
-  sha256 "3d9221cab2f8ce892826a28271247d45e2c7d7cbfe773dd3c790078a4b08044d"
+  version "0.2.0"
+  sha256 "43181cd412c6a814d0e587b28b81e7efb50a8c29cf28ff12587ad1ddc7b08d64"
 
   url "https://github.com/reorx/feishu-lite/releases/download/v#{version}/FeishuLite-#{version}.dmg"
   name "FeishuLite"
@@ -18,7 +18,7 @@ cask "feishu-lite" do
   postflight do
     system_command "#{HOMEBREW_PREFIX}/opt/uv/bin/uv",
                    args: ["tool", "install", "--force", "--python", "3.12", "--",
-                          "git+https://github.com/reorx/feishu-lite.git@ba1de6cbf128a038e42d4ad361c80cc827b20dbb#subdirectory=backend"],
+                          "git+https://github.com/reorx/feishu-lite.git@20a53c10bc3ca946674f14281c8d9891d96fe7ed#subdirectory=backend"],
                    env: { "UV_TOOL_BIN_DIR" => File.expand_path("~/.local/bin") },
                    must_succeed: true
   end
