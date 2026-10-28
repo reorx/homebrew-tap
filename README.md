@@ -26,6 +26,7 @@ brew trust --tap reorx/tap
 - [mdnotate](https://github.com/reorx/mdnotate) — Read-only Markdown reader with text annotation and quote export
 - [feishu-lite](https://github.com/reorx/feishu-lite) — Lightweight Feishu chat client
 - [gapless-paste](https://github.com/reorx/gapless-paste) — Menu bar tool to send clipboard images, files and text to SSH hosts
+- [agent-session-manager](https://github.com/reorx/agent-session-manager) — Browse, search and resume Claude Code sessions (Apple Silicon)
 
 ## Maintenance
 
