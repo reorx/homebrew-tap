@@ -1,6 +1,6 @@
 cask "mdnotate" do
-  version "0.14.1"
-  sha256 "d8535ae4781606e2553e334fd0d0ae2594e1810baa3e64e632ef9c1f1062df2e"
+  version "0.15.0"
+  sha256 "d723b97306e7c929087dcb7ca47e2ce12938f265c70aafe42f4df64b6a25482f"
 
   url "https://github.com/reorx/mdnotate/releases/download/v#{version}/mdnotate_#{version}_universal.dmg"
   name "mdnotate"
